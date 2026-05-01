@@ -1,0 +1,20 @@
+{
+  "name": "Ouma Joan Akello Portfolio",
+  "short_name": "Joan Portfolio",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#075fe4",
+  "icons": [
+    {
+      "src": "assets/images/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "assets/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
