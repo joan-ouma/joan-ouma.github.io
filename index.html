@@ -82,7 +82,7 @@
                 <a href="index.html" aria-current="page" class="header-nav-link w-nav-link w--current">
                   Home</a>
               </li>
-              
+
               <li class="header-nav-list-item">
                 <a href="/blog" class="header-nav-link w-nav-link">
                   Blog</a>
@@ -110,7 +110,7 @@
                 class="header-nav-link hamburger-desktop-nav-link w-nav-link w--current">
                 Home</a>
             </li>
-            
+
             <li class="header-nav-list-item hamburger-desktop">
               <a href="/blog" class="header-nav-link hamburger-desktop-nav-link w-nav-link">
                 Blog</a>
@@ -135,11 +135,11 @@
               <p class="mg-bottom-0">
                 Software Engineer architecting scalable edge and cloud systems.</p>
             </div>
-            
+
           </div>
           <div id="w-node-_42c0e0e1-9a9b-a741-6e24-7571d921d897-cecd3d78" class="hero-bg-image-right-container">
             <div class="grid-2-columns-mbl _1-col-mbp gap-0-mbp">
-              
+
               <div class="hidden-on-mbl show-on-mbp">
                 <div class="divider _50px bg-neutral-700">
                 </div>
@@ -174,7 +174,7 @@
                 <div class="social-icon-font">
                   </div>
               </a>
-              <a href="https://www.linkedin.com/" target="_blank" class="social-icon w-inline-block">
+              <a href="https://www.linkedin.com/in/joan-ouma" target="_blank" class="social-icon w-inline-block">
                 <div class="social-icon-font">
                   </div>
               </a>
@@ -555,7 +555,7 @@
                     loading="eager" alt="Venture Logo - Developer X Webflow Template"
                     class="mg-bottom-40px mg-bottom-24px-mbl" />
                   <p class="display-5 mg-bottom-56px mg-bottom-24px-mbl">
-                    “John did an amazing work with our web-app, everything he did to optimize our software help us to
+                    “Joan did an amazing work with our web-app, everything he did to optimize our software help us to
                     reduce our loading speed by 56%”</p>
                   <div class="text-400 bold text-uppercase">
                     <span class="color-accent-1">
@@ -581,7 +581,7 @@
                     loading="eager" alt="Company Logo - Developer X Webflow Template"
                     class="mg-bottom-40px mg-bottom-24px-mbl" />
                   <p class="display-5 mg-bottom-56px mg-bottom-24px-mbl">
-                    “We’ve never had come this far without John’s great attention to detail and care for the final
+                    “We’ve never had come this far without Joan’s great attention to detail and care for the final
                     product”</p>
                   <div class="text-400 bold text-uppercase">
                     <span class="color-accent-1">
@@ -607,7 +607,7 @@
                     loading="eager" alt="Studio Logo - Developer X Webflow Template"
                     class="mg-bottom-40px mg-bottom-24px-mbl" />
                   <p class="display-5 mg-bottom-56px mg-bottom-24px-mbl">
-                    “I think John was essential to our product because he truly cared to deliver world-class work
+                    “I think Joan was essential to our product because he truly cared to deliver world-class work
                     results”</p>
                   <div class="text-400 bold text-uppercase">
                     <span class="color-accent-1">
@@ -731,20 +731,7 @@
               <div class="social-icon-font">
                 </div>
             </a>
-            <a href="https://www.linkedin.com/" target="_blank" class="social-icon w-inline-block">
-              <div class="social-icon-font">
-                </div>
-            </a>
-            <a href="https://github.com/joan-ouma" target="_blank" class="social-icon w-inline-block">
-              <div class="social-icon-font">
-                </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-            </a>
-            <a href="https://www.linkedin.com/" target="_blank" class="social-icon w-inline-block">
+            <a href="https://www.linkedin.com/in/joan-ouma" target="_blank" class="social-icon w-inline-block">
               <div class="social-icon-font">
                 </div>
             </a>
@@ -840,7 +827,7 @@
                   <div class="social-icon-font">
                     </div>
                 </a>
-                <a href="https://www.linkedin.com/" target="_blank" class="social-icon w-inline-block">
+                <a href="https://www.linkedin.com/in/joan-ouma" target="_blank" class="social-icon w-inline-block">
                   <div class="social-icon-font">
                     </div>
                 </a>
@@ -899,7 +886,7 @@
             <div id="w-node-a9716d81-7fc3-0b29-1a2b-32de728b9540-728b9503">
               <a href="index.html" aria-current="page" class="footer-link sibling-opacity-item w--current">
                 Home</a>
-              
+
               <a href="portfolio.html" class="footer-link sibling-opacity-item">
                 Portfolio</a>
               <a href="/blog" class="footer-link sibling-opacity-item">
@@ -909,10 +896,7 @@
             </div>
             <div id="w-node-a9716d81-7fc3-0b29-1a2b-32de728b954b-728b9503" class="text-right text-center-tablet">
               <p class="color-neutral-100 mg-bottom-0">
-                Copyright © Ouma Joan Akello | Designed by <a href="https://brixtemplates.com/" target="_blank">
-                  BRIX Templates</a>
-                - Powered by <a href="https://webflow.com/" target="_blank">
-                  Webflow</a>
+                Copyright © Ouma Joan Akello
               </p>
             </div>
           </div>
@@ -927,23 +911,23 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const sliders = document.querySelectorAll('.w-slider');
-      
+
       sliders.forEach(slider => {
         const mask = slider.querySelector('.w-slider-mask');
         const slides = slider.querySelectorAll('.w-slide');
         const leftArrow = slider.querySelector('.w-slider-arrow-left');
         const rightArrow = slider.querySelector('.w-slider-arrow-right');
-        
+
         let currentIndex = 0;
         const totalSlides = slides.length;
-        
+
         function updateSlider() {
           if (totalSlides === 0) return;
-          
+
           // Calculate the width of one slide (assuming they are uniform)
           const slideWidth = slides[0].offsetWidth;
           const offset = -currentIndex * slideWidth;
-          
+
           // Apply transition to all slides to move them together
           slides.forEach((slide) => {
             slide.style.transition = 'transform 0.5s ease';
@@ -981,7 +965,7 @@
             updateSlider();
           });
         }
-        
+
         // Handle window resize to recalculate widths
         window.addEventListener('resize', updateSlider);
       });
