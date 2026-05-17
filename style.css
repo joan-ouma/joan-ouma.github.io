@@ -1018,7 +1018,10 @@ figcaption{text-align:center;margin-top:16px;}
 .testimonial-text-right{max-width:638px;margin-top:22px;margin-bottom:80px;}
 .testimonial-image-left{object-fit:cover;border-radius:28px;height:100%;min-height:492px;max-height:492px;}
 .card.portfolio-project .badges-top-wrapper{z-index:1;grid-column-gap:16px;grid-row-gap:16px;display:flex !important;flex-wrap:wrap !important;justify-content:flex-start !important;align-items:flex-start !important;align-content:flex-start !important;position:absolute !important;top:32px !important;left:32px !important;right:auto !important;width:auto !important;max-width:calc(100% - 64px) !important;margin:0 !important;text-align:left !important;flex-direction:row !important;}
-.badges-align-start{display:flex !important;justify-content:flex-start !important;width:100% !important;text-align:left !important;}
+.badges-align-start{display:flex !important;justify-content:flex-start !important;width:100% !important;text-align:left !important;gap:12px !important;}
+.badges-align-start > .badge-primary{margin-right:0;}
+.chip{margin-right:12px;}
+.chip:last-child{margin-right:0;}
 .portfolio-project-card-text-container{z-index:1;max-width:430px;margin:90px 34px -24px;position:relative;}
 .portfolio-project-logo-wrapper{max-width:140px;margin-bottom:16px;}
 .blog-post-link-wrapper{transform-style:preserve-3d;text-decoration:none;transition-property:transform;}
@@ -1783,3 +1786,13 @@ blockquote{margin-top:40px;margin-bottom:32px;padding:56px 24px;font-size:18px;}
 @font-face{font-family:'Spacegrotesk';src:url('https://cdn.prod.website-files.com/622fbc5a718ac3417fcd3d75/622fc8f87fd5f314f8fc8126_SpaceGrotesk-Medium.woff') format('woff');font-weight:500;font-style:normal;font-display:swap;}
 @font-face{font-family:'Spacegrotesk';src:url('https://cdn.prod.website-files.com/622fbc5a718ac3417fcd3d75/622fc8f89ce5a8375d74de96_SpaceGrotesk-Bold.woff') format('woff');font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:'Spacegrotesk';src:url('https://cdn.prod.website-files.com/622fbc5a718ac3417fcd3d75/622fc8f87653c0225d638848_SpaceGrotesk-Regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap;}
+
+
+/* Strong override for chip spacing */
+.badges-align-start .chip{display:inline-block !important;margin-right:12px !important;}
+.badges-align-start .chip:last-child{margin-right:0 !important;}
+
+/* Extra-specific override for chip spacing */
+.card.portfolio-project .badges-top-wrapper .badges-align-start .chip{display:inline-block !important;margin-right:12px !important;margin-left:0 !important;}
+.card.portfolio-project .badges-top-wrapper .badges-align-start .chip + .chip{margin-left:12px !important;}
+.card.portfolio-project .badges-top-wrapper .badges-align-start .chip:last-child{margin-right:0 !important;}
