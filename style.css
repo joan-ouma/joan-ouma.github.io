@@ -431,7 +431,8 @@ figcaption{text-align:center;margin-top:16px;}
 .card.checkout-block.last{margin-bottom:0;}
 .card.skills{padding:124px 52px 100px;}
 .card.testimonial{grid-column-gap:28px;grid-row-gap:28px;background-color:#0000;border-radius:0;grid-template-rows:auto;grid-template-columns:1fr 1.42fr;grid-auto-columns:1fr;display:grid;}
-.card.portfolio-project{transform-style:preserve-3d;text-decoration:none;transition-property:transform;position:relative;overflow:hidden;}
+.card.portfolio-project{transform-style:preserve-3d;text-decoration:none;transition-property:transform;position:relative;overflow:hidden;display:block;width:100%;cursor:pointer;}
+.card.portfolio-project *{pointer-events:auto;}
 .card.portfolio-project:hover{transform:scale3d(1.04, 1.04, 1.01);}
 .card.snippets{transform-style:preserve-3d;text-decoration:none;transition-property:transform;overflow:hidden;}
 .card.snippets:hover{transform:scale3d(1.04, 1.04, 1.01);}
