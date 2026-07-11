@@ -100,7 +100,40 @@
   </style>
   <!-- AOS Animation CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <style>
+    .portfolio-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 48px;
+    }
+    .filter-btn {
+      background-color: transparent;
+      color: var(--neutral-400);
+      border: 1px solid var(--neutral-600);
+      border-radius: 100px;
+      padding: 10px 24px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .filter-btn:hover {
+      border-color: var(--accent-1);
+      color: var(--neutral-100);
+    }
+    .filter-btn.active {
+      background-color: var(--accent-1);
+      color: #fff;
+      border-color: var(--accent-1);
+    }
+    .filter-hidden {
+      display: none !important;
+    }
+  </style>
 </head>
+
 
 <body>
   <div class="page-wrapper">
@@ -486,96 +519,83 @@
 
     <div class="section bg-neutral-700---40">
       <div class="container-default w-container">
-        <div class="grid-2-columns title-and-cards">
-          <div id="w-node-d986b1c4-810f-08ae-61d9-bcbd56045c2e-cecd3d78" data-aos="fade-up">
-            <div id="w-node-_9bd4dc5c-7803-8711-52a1-98d018e5c766-cecd3d78" class="mg-bottom-108px">
-              <div class="subtitle">
-                <span class="color-accent-1">
-                  /</span>
-                My portfolio
-              </div>
-              <h2 class="display-3 mg-bottom-48px">
-                Take a look at the latest projects I’ve done</h2>
-              <a href="#" class="link-wrapper white w-inline-block">
-                <div class="link-text heading-h3-size">
-                  Browse all projects</div>
-                <div class="line-square-icon link-icon-right _26px">
-                  </div>
-                <div class="link-underline-wrapper">
-                  <div style="width:0%" class="link-underline">
+        <!-- Title and Filters -->
+        <div class="mg-bottom-64px" data-aos="fade-up">
+          <div class="subtitle">
+            <span class="color-accent-1">/</span> My portfolio
+          </div>
+          <h2 class="display-3 mg-bottom-32px">Take a look at the latest projects I’ve done</h2>
+          
+          <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="backend">Backend & DB</button>
+            <button class="filter-btn" data-filter="ai">AI / LLMs</button>
+          </div>
+        </div>
+
+        <!-- Unified Project Grid -->
+        <div class="grid-2-columns">
+          <!-- CareerPilot -->
+          <div class="portfolio-item w-dyn-list" data-category="web" data-aos="fade-up" data-aos-delay="100">
+            <div role="list" class="w-dyn-items">
+              <div role="listitem" class="w-dyn-item">
+                <a href="https://careerpilot-mwn3.onrender.com/" target="_blank" rel="noopener noreferrer" class="card portfolio-project w-inline-block">
+                  <div class="badges-top-wrapper">
+                    <div class="badges-align-start">
+                      <div class="badge-primary small">React JS</div>
+                      <div class="badge-primary small">Web Development</div>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </div>
-            <div class="w-dyn-list">
-              <div role="list" class="w-dyn-items">
-                <div role="listitem" class="w-dyn-item">
-                  <a href="https://careerpilot-mwn3.onrender.com/" target="_blank" rel="noopener noreferrer"
-                    class="card portfolio-project w-inline-block">
-                    <div class="badges-top-wrapper">
-                      <div class="badges-align-start">
-                        <div class="badge-primary small">React JS</div>
-                        <div class="badge-primary small">Web Development</div>
-                      </div>
-                    </div>
-                    <div class="portfolio-project-card-text-container">
-                      <h2 class="display-5 mg-bottom-0">CareerPilot: interactive career guidance web app</h2>
-                    </div>
-                    <img src="assets/images/careerpilot-interactive-career-guidance-thumbnail.png" loading="eager"
-                      alt="CareerPilot: interactive career guidance web app"
-                      sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1439px) 45vw, 584px"
-                      srcset="assets/images/careerpilot-interactive-career-guidance-thumbnail-500.png 500w, assets/images/careerpilot-interactive-career-guidance-thumbnail.png 1164w"
-                      class="portfolio-thumbnail-image" />
-                  </a>
-                </div>
+                  <div class="portfolio-project-card-text-container">
+                    <h2 class="display-5 mg-bottom-0">CareerPilot: interactive career guidance web app</h2>
+                  </div>
+                  <img src="assets/images/careerpilot-interactive-career-guidance-thumbnail.png" loading="eager" alt="CareerPilot: interactive career guidance web app" class="portfolio-thumbnail-image" />
+                </a>
               </div>
             </div>
           </div>
-          <div id="w-node-_6f34c543-cafb-5831-e05b-ad69d32267ce-cecd3d78">
-            <div class="mg-bottom-40px w-dyn-list">
-              <div role="list" class="w-dyn-items">
-                <div role="listitem" class="w-dyn-item">
-                  <a href="https://feedback-system-wgmf.onrender.com/" target="_blank" rel="noopener noreferrer"
-                    class="card portfolio-project w-inline-block">
-                    <div class="badges-top-wrapper">
-                      <div class="badges-align-start">
-                        <div class="badge-primary small">React JS</div>
-                        <div class="badge-primary small">Web Development</div>
-                      </div>
+
+          <!-- Campus Support -->
+          <div class="portfolio-item w-dyn-list" data-category="web backend" data-aos="fade-up" data-aos-delay="200">
+            <div role="list" class="w-dyn-items">
+              <div role="listitem" class="w-dyn-item">
+                <a href="https://feedback-system-wgmf.onrender.com/" target="_blank" rel="noopener noreferrer" class="card portfolio-project w-inline-block">
+                  <div class="badges-top-wrapper">
+                    <div class="badges-align-start">
+                      <div class="badge-primary small">React JS</div>
+                      <div class="badge-primary small">Web Development</div>
                     </div>
-                    <div class="portfolio-project-card-text-container">
-                      <h2 class="display-5 mg-bottom-0">Campus Support: Mental health feedback platform</h2>
-                    </div>
-                    <img src="assets/images/campus-support-mental-health-platform-thumbnail.png" loading="eager"
-                      alt="Campus Support: Mental health feedback platform"
-                      sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1439px) 45vw, 584px"
-                      srcset="assets/images/campus-support-mental-health-platform-thumbnail-500.png 500w, assets/images/campus-support-mental-health-platform-thumbnail.png 1164w"
-                      class="portfolio-thumbnail-image" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="w-dyn-list">
-              <div role="list" class="w-dyn-items">
-                <div role="listitem" class="w-dyn-item">
-                  <a href="https://nutrifit-3ue8.onrender.com/" target="_blank" rel="noopener noreferrer"
-                    class="card portfolio-project w-inline-block">
-                    <div class="badges-top-wrapper">
-                      <div class="badges-align-start">
-                        <div class="badge-primary small">LLMs</div>
-                        <div class="badge-primary small">MongoDB</div>
-                      </div>
-                    </div>
-                    <div class="portfolio-project-card-text-container">
-                      <h2 class="display-5 mg-bottom-0">Nutrifit: AI Powered Nutritional Recommendation</h2>
-                    </div>
-                    <img src="assets/images/nutrifit-ai-nutritional-recommendation-thumbnail.png" loading="eager"
-                      alt="Nutrifit: AI Powered Nutritional Recommendation" class="portfolio-thumbnail-image" />
-                  </a>
-                </div>
+                  </div>
+                  <div class="portfolio-project-card-text-container">
+                    <h2 class="display-5 mg-bottom-0">Campus Support: Mental health feedback platform</h2>
+                  </div>
+                  <img src="assets/images/campus-support-mental-health-platform-thumbnail.png" loading="eager" alt="Campus Support: Mental health feedback platform" class="portfolio-thumbnail-image" />
+                </a>
               </div>
             </div>
           </div>
+
+          <!-- Nutrifit -->
+          <div class="portfolio-item w-dyn-list" data-category="backend ai" data-aos="fade-up" data-aos-delay="300">
+            <div role="list" class="w-dyn-items">
+              <div role="listitem" class="w-dyn-item">
+                <a href="https://nutrifit-3ue8.onrender.com/" target="_blank" rel="noopener noreferrer" class="card portfolio-project w-inline-block">
+                  <div class="badges-top-wrapper">
+                    <div class="badges-align-start">
+                      <div class="badge-primary small">LLMs</div>
+                      <div class="badge-primary small">MongoDB</div>
+                    </div>
+                  </div>
+                  <div class="portfolio-project-card-text-container">
+                    <h2 class="display-5 mg-bottom-0">Nutrifit: AI Powered Nutritional Recommendation</h2>
+                  </div>
+                  <img src="assets/images/nutrifit-ai-nutritional-recommendation-thumbnail.png" loading="eager" alt="Nutrifit: AI Powered Nutritional Recommendation" class="portfolio-thumbnail-image" />
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -998,6 +1018,34 @@
       AOS.init({ duration: 800, once: true, offset: 100 });
     });
   </script>
+
+  <!-- Portfolio Filter Logic -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Remove active class from all
+          filterBtns.forEach(b => b.classList.remove('active'));
+          // Add to clicked
+          btn.classList.add('active');
+
+          const filterValue = btn.getAttribute('data-filter');
+
+          portfolioItems.forEach(item => {
+            if (filterValue === 'all' || item.getAttribute('data-category').includes(filterValue)) {
+              item.classList.remove('filter-hidden');
+            } else {
+              item.classList.add('filter-hidden');
+            }
+          });
+        });
+      });
+    });
+  </script>
 </body>
+
 
 </html>
