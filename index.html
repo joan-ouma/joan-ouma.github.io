@@ -163,6 +163,11 @@
             <div class="hidden-on-tablet" style="margin-left: 24px;">
               <a href="RESUME.md" download="Ouma_Joan_Akello_Resume.md" class="btn-primary small w-inline-block" style="padding: 12px 24px;">Download Resume</a>
             </div>
+            <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark Mode">
+              <svg id="theme-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <!-- Icon injected by JS -->
+              </svg>
+            </button>
             <div class="hamburger-menu-wrapper w-nav-button">
               <div class="hamburger-menu-bar top">
               </div>
@@ -1053,6 +1058,41 @@
           });
         });
       });
+    });
+  </script>
+
+  <!-- Theme Toggle Logic -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const themeToggle = document.getElementById('theme-toggle');
+      const themeIcon = document.getElementById('theme-icon');
+      
+      const moonIcon = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>';
+      const sunIcon = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>';
+
+      // Check for saved theme
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        themeIcon.innerHTML = moonIcon; // Show moon to switch to dark
+      } else {
+        themeIcon.innerHTML = sunIcon; // Show sun to switch to light
+      }
+
+      if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+          const currentTheme = document.documentElement.getAttribute('data-theme');
+          if (currentTheme === 'light') {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('theme', 'dark');
+            themeIcon.innerHTML = sunIcon;
+          } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+            themeIcon.innerHTML = moonIcon;
+          }
+        });
+      }
     });
   </script>
 </body>

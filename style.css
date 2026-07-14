@@ -1797,3 +1797,58 @@ blockquote{margin-top:40px;margin-bottom:32px;padding:56px 24px;font-size:18px;}
 .card.portfolio-project .badges-top-wrapper .badges-align-start .chip{display:inline-block !important;margin-right:12px !important;margin-left:0 !important;}
 .card.portfolio-project .badges-top-wrapper .badges-align-start .chip + .chip{margin-left:12px !important;}
 .card.portfolio-project .badges-top-wrapper .badges-align-start .chip:last-child{margin-right:0 !important;}
+
+/* ----------------------------------- */
+/* Dark/Light Mode Theme Overrides     */
+/* ----------------------------------- */
+
+/* Light Mode Overrides */
+[data-theme="light"] {
+  --neutral--800: #ffffff; /* Main Background */
+  --neutral--700: #f4f5f7; /* Card Backgrounds */
+  --neutral--400: #4a5568; /* Normal Text */
+}
+
+/* Specific text overrides to keep headings visible */
+[data-theme="light"] h1, 
+[data-theme="light"] h2, 
+[data-theme="light"] h3, 
+[data-theme="light"] h4, 
+[data-theme="light"] h5, 
+[data-theme="light"] h6,
+[data-theme="light"] strong,
+[data-theme="light"] .text-100.bold,
+[data-theme="light"] .display-1,
+[data-theme="light"] .display-2,
+[data-theme="light"] .display-3,
+[data-theme="light"] .display-4,
+[data-theme="light"] .display-5 {
+  color: #1a202c !important;
+}
+
+/* Ensure primary buttons stay white text */
+[data-theme="light"] .btn-primary {
+  color: #ffffff !important;
+}
+
+/* Dark mode toggle button styles */
+.theme-toggle-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin-left: 16px;
+  color: var(--neutral--100);
+  transition: opacity 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  opacity: 0.7;
+}
+
+[data-theme="light"] .theme-toggle-btn {
+  color: #1a202c !important;
+}
