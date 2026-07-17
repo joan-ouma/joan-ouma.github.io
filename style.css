@@ -1852,3 +1852,12 @@ blockquote{margin-top:40px;margin-bottom:32px;padding:56px 24px;font-size:18px;}
 [data-theme="light"] .theme-toggle-btn {
   color: #1a202c !important;
 }
+
+/* Fix social icons in light mode */
+[data-theme="light"] .social-icon {
+  color: #1a202c !important;
+}
+
+[data-theme="light"] .social-icon img {
+  filter: brightness(0);
+}
