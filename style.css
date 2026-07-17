@@ -1854,5 +1854,5 @@ blockquote{margin-top:40px;margin-bottom:32px;padding:56px 24px;font-size:18px;}
 /* Fix images that should be dark in light mode */
 [data-theme="light"] .header-logo,
 [data-theme="light"] .social-icon img {
-  filter: brightness(0);
+  filter: invert(1);
 }
