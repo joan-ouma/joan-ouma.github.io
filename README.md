@@ -22,3 +22,9 @@ I am an **IoT & Full-Stack Developer** based in Nairobi, Kenya, specializing in 
 - **IoT Hardware:** AutoCAD, KiCAD, ESP32/ESP8266 Microcontrollers
 - **DevOps & Tools:** Docker, Kubernetes, GitHub Actions, Terraform, Linux
 
+## 🌐 Connect with Me
+
+- **Portfolio:** [jullie.tech](https://jullie.tech)
+- **LinkedIn:** [linkedin.com/in/joan-ouma](https://www.linkedin.com/in/joan-ouma)
+- **Twitter / X:** [@Jullie_IOT](https://twitter.com/Jullie_IOT)
+- **Medium:** [medium.com/@joanouma48](https://medium.com/@joanouma48)
