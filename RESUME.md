@@ -37,12 +37,6 @@ Portfolio: www.jullie.tech | LinkedIn: [https://www.linkedin.com/in/joan-ouma](h
 * [cite_start]Designing and implementing a platform that leverages high-frequency data from Google Flood Hub, GloFAS/Copernicus, and Sentinel-1 SAR to provide predictive flood analytics. [cite: 28]
 * [cite_start]Architecting a multi-channel dissemination system using Africa's Talking to deliver critical alerts via SMS, USSD, and IVR across major Ghanaian telecommunications networks. [cite: 29]
 
-**JullieTech | [cite_start]Founder & Lead Software Engineer** [cite: 30]
-*Nairobi, Kenya | [cite_start]August 2025 - Present* [cite: 30]
-* [cite_start]Achieved a 98.9% Google Lighthouse score for performance and SEO by architecting the platform with Next.js 14 Server-Side Rendering, structured data (JSON-LD), and Tailwind CSS for a fluid mobile UX. [cite: 31]
-* [cite_start]Engineered and integrated a custom AI Chatbot via scalable REST APIs, ensuring seamless frontend-to-backend data flow while writing clean, well-documented code. [cite: 32]
-* [cite_start]Designed and implemented relational schema structures using PostgreSQL to manage user data, optimizing the platform for data integrity and rapid query speeds. [cite: 33]
-* [cite_start]Managed the end-to-end development lifecycle using Git/GitHub workflows, while coordinating a cross-functional team of designers and an advisor to deliver a cohesive brand identity. [cite: 34]
 
 **Power Learn Project (PLP) Academy | [cite_start]Software Development Trainee** [cite: 35]
 *Nairobi, Kenya | [cite_start]July 2025-December 2025* [cite: 35]
