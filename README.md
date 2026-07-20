@@ -4,7 +4,7 @@ Welcome to the repository for my personal portfolio website, available live at [
 
 ## 👩‍💻 About Me
 
-I am an **IoT & Full-Stack Developer** based in Nairobi, Kenya, specializing in architecting scalable edge and cloud systems. I bridge the gap between physical hardware and cloud infrastructure by building everything from embedded edge nodes to distributed microservice backends.
+I am a **Robotics & IoT Engineer | Full-Stack Developer** based in Nairobi, Kenya, specializing in architecting scalable edge and cloud systems. I bridge the gap between physical hardware and cloud infrastructure by building everything from embedded edge nodes and robotic simulation environments to distributed microservice backends.
 
 ## 🚀 Features
 
@@ -15,16 +15,28 @@ I am an **IoT & Full-Stack Developer** based in Nairobi, Kenya, specializing in 
 
 ## 🛠️ Technical Skills
 
-- **Languages:** JavaScript (ES6+), C/C++ (IoT Firmware), Python, Golang (Go), SQL
-- **Frontend:** React.js, Next.js 14, Tailwind CSS, HTML5, CSS3
-- **Backend & Architecture:** Node.js, REST APIs, Nginx, Microservices
-- **Database & Event Streaming:** PostgreSQL, Supabase, MongoDB, Apache Kafka, MQTT Brokers
-- **IoT Hardware:** AutoCAD, KiCAD, ESP32/ESP8266 Microcontrollers
-- **DevOps & Tools:** Docker, Kubernetes, GitHub Actions, Terraform, Linux
+- **Languages:** Python, Golang (Go), JavaScript (ES6+), C/C++ (IoT Firmware), SQL
+- **Frontend Stack:** React.js (Hooks/Context), Next.js 14, Tailwind CSS, HTML5, CSS3
+- **Backend & Architecture:** Django, Flask, RESTful API Design, Nginx (API Gateway), Microservices Architecture
+- **Database & Event Streaming:** PostgreSQL, Supabase, MongoDB, Relational Database Design, Apache Kafka, MQTT Brokers
+- **Robotics & Middleware:** ROS 2 (Jazzy Jalisco), DDS, Sensor Latency Profiling, Autonomous Navigation Algorithms
+- **IoT Hardware:** Fusion 360, AutoCAD, KiCAD (Hardware/Component Design), ESP32/ESP8266 Microcontrollers
+- **DevOps & Tools:** Docker (Containerization), Kubernetes (Orchestration), GitHub Actions, TerraForm, Linux/Terminal
+- **Testing & Security:** API Testing (Postman), System Debugging, Security Best Practices (User Authentication, Data Privacy)
+- **Core Competencies:** Hardware-to-Cloud Integration, Mobile-First Design, SEO Optimization, Al Chatbot Integration, Performance Optimization (Core Web Vitals)
+
+## 💼 Professional Experience Highlights
+
+- **Robotics Engineering Intern** @ Robotics Dojo (Nairobi, Kenya)
+- **Cloud Computing Trainee** @ KamiLimu Cohort 10
+- **Research and Development Engineer (Backend)** @ YouthInAi Organization
+- **Open Source Software Engineer** @ Wecncode
+- **ICT Intern** @ South Nyanza Sugar Company
 
 ## 🌐 Connect with Me
 
 - **Portfolio:** [jullie.tech](https://jullie.tech)
 - **LinkedIn:** [linkedin.com/in/joan-ouma](https://www.linkedin.com/in/joan-ouma)
 - **Twitter / X:** [@Jullie_IOT](https://twitter.com/Jullie_IOT)
+- **GitHub:** [github.com/joan-ouma](https://github.com/joan-ouma)
 - **Medium:** [medium.com/@joanouma48](https://medium.com/@joanouma48)
