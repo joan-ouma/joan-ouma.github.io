@@ -94,3 +94,26 @@ Nairobi, Kenya | +254 114 333 909 | Email: joanouma48@gmail.com
 **Localized Smart Building Management System | Full-Stack IoT Developer Active Coursework, JKUAT**
 * **Description:** A centralized, "closed-loop" 3-zone smart building architecture that connects physical sensors and security actuators to a robust backend infrastructure. Features a real-time Human-Machine Interface (HMI) web dashboard allowing operators to actively monitor building status and execute manual hardware overrides.
 * **Technology:** Hardware edge layer built with an ESP8266 NodeMCU and an MCP23017 I2C expander to manage pin exhaustion. Backend architecture is powered by Go-based microservices, utilizing MQTT and Kafka event-streaming pipelines for data ingestion, and PostgreSQL for database management.
+
+## LEADERSHIP
+
+**She-Tech Nexus Africa | Chairperson**
+*JKUAT, Kenya | April 2026 â€“ Present*
+* **Executive Leadership & Strategy:** Spearheading the strategic direction and operations of a vibrant women-in-tech community, establishing initiatives that empower female engineering students in software development and embedded systems.
+* **Technical Program Management:** Organizing and directing technical bootcamps, coding hackathons, and peer-mentorship programs to accelerate practical skill acquisition among members.
+* **Stakeholder & Committee Direction:** Managing a cross-functional executive committee and driving strategic partnerships with industry professionals to facilitate student mentorship and networking opportunities.
+
+**GDG Women-In-Tech | Co-lead**
+*JKUAT, Kenya | September 2025 - Present*
+* **Community Growth:** Bridged the gender gap in the local tech community by organizing peer learning sessions on Cloud Computing and Web Development for female students.
+* **Career Development:** Empowered junior students to navigate the tech ecosystem by organizing mentorship talks and networking sessions with established industry professionals to share career insights.
+
+**IEEE Computer Society, JKUAT Student Branch | Vice-Chairperson**
+*Nairobi, Kenya | September 2024 â€“ May 2026*
+* **Engagement:** Increased student participation in coding activities by 40% by organizing and spearheading 3+ technical hackathons and workshops.
+* **Mentorship:** Connected 50+ students with industry professionals by coordinating guest speaker sessions and tech talks.
+
+**She-Tech Nexus Africa | Secretary**
+*JKUAT, Kenya | October 2023 â€“ April 2026*
+* **Event Coordination & Logistics:** Successfully managed logistics, member registration, and daily scheduling for large-scale industry immersions, including a 3-day tech industrial visit to Safaricom PLC Headquarters.
+* **Administrative Leadership:** Streamlined club operations by maintaining accurate member databases, facilitating official communications and coordinating the annual committee nomination and transition process.
