@@ -15,3 +15,48 @@ Nairobi, Kenya | +254 114 333 909 | Email: joanouma48@gmail.com
 * **DevOps & Tools:** Docker (Containerization), Kubernetes (Orchestration), GitHub Actions, TerraForm, Linux/Terminal.
 * **Testing & Security:** API Testing (Postman), System Debugging, Security Best Practices (User Authentication, Data Privacy).
 * **Core Competencies:** Hardware-to-Cloud Integration, Mobile-First Design, SEO Optimization, Al Chatbot Integration, Performance Optimization (Core Web Vitals).
+
+## EDUCATION
+**Jomo Kenyatta University of Agriculture and Technology (JKUAT)**
+*Bachelor of Science in Electronics and Computer Engineering*
+* **Current Status:** Final Year Student
+* **Focus:** Embedded Systems & Software Development.
+
+## PROFESSIONAL EXPERIENCE
+
+**Robotics Dojo | Robotics Engineering Intern**
+*Nairobi, Kenya | June 2026 â€“ Present*
+* **Designing and deploying** containerized robotic simulation environments using Docker and Minikube to validate real-time navigation and skid-steering control algorithms prior to physical deployment.
+* **Middleware & Simulation:** Architecting and deploying autonomous robotic software stacks utilizing **ROS 2 (Jazzy Jalisco)** within an **Ubuntu Linux** environment; designing high-fidelity 3D simulation worlds and kinematics verification pipelines using **Gazebo** and **RViz**.
+* **Hardware & Sensor Interfacing:** Interfacing embedded **microcontrollers (ESP32)** and **Raspberry Pi** edge computers with real-time sensor payloads including **LiDAR**, IMUs, and optical cameras to optimize message transport layers and minimize latency for autonomous navigation.
+* **CAD Design & Prototyping:** Designing custom 3D mechanical components, chassis assemblies, and sensor brackets using **Fusion 360** and **SolidWorks**, ensuring seamless electromechanical integration and rapid hardware prototyping.
+* **Control & Containerization:** Deploying containerized robotic software using **Docker** and **Minikube** to validate real-time path-planning, obstacle avoidance, and skid-steering algorithms prior to physical deployment.
+
+**KamiLimu Cohort 10 Mentee | Cloud Computing Trainee**
+*Nairobi, Kenya | May 2026 - Present*
+* Selected as one of 40 mentees out of 220 applicants from 43 universities for an intensive 8-month technical mentorship program, with an intended focus on cloud architecture, Linux environments, and scalable backend systems.
+* Participating in rigorous peer-to-peer mentorship, focusing on emotional intelligence, collaborative development, and high-impact execution.
+
+**YouthInAi Organization | Research and Development Engineer (Backend)**
+*Remote | April 2026 â€“ Present*
+* **Designing and implementing** a platform that leverages high-frequency data from Google Flood Hub, GloFAS/Copernicus, and Sentinel-1 SAR to provide predictive flood analytics.
+* **Architecting** a multi-channel dissemination system using Africaâ€™s Talking to deliver critical alerts via SMS, USSD, and IVR across major Ghanaian telecommunications networks.
+
+**Wecncode | Open Source Software Engineer (Incoming)**
+*Remote | Expected Start: May 2026*
+* Selected to architect a RAG-powered telemedicine chatbot for verified, hallucination-free medical guidance.
+* **Developing** a local-first, zero-cloud backend using Python (LlamaIndex) and Node.js (LangChain) to maximize patient data security.
+* Participating in an open-source community to engineer secure React API integrations implementing strict input sanitization and medical safety filters.
+
+**Power Learn Project (PLP) Academy | Software Development Trainee**
+*Nairobi, Kenya | July 2025 â€“ December 2025*
+* Completed intensive coursework in core software engineering principles, full-stack web development (JavaScript, HTML/CSS), and relational database design (SQL).
+* Developed functional web applications utilizing the Python Django MVC framework to deliver collaborative, team-based capstone projects.
+* Gained practical insights into developer-focused startup building and Minimum Viable Product (MVP) strategy, utilizing agile methodologies, peer code reviews, and Git/GitHub version control.
+
+**South Nyanza Sugar Company | ICT Intern**
+*Migori, Kenya | June 2025 - August 2025*
+* Reduced factory operational downtime by ~15% by proactively troubleshooting enterprise network infrastructure and configuring network switches across multiple departments.
+* Designed custom SQL-driven dashboards to monitor real-time network bandwidth usage and track company-wide IT asset inventories extracted from Hyper-V virtualization data for over 250 users across 14 organizational departments.
+* Improved the reliability of technical reporting by digitizing daily error logs and maintenance records for enterprise IT hardware (computers, UPS systems, printers) alongside industrial SCADA telemetry into a centralized database.
+* Enhanced facility security operations by deploying CCTV surveillance systems across various organizational zones, while analyzing the configuration of entry-point RFID scanners used for automated tractor fleet tracking.
