@@ -60,3 +60,37 @@ Nairobi, Kenya | +254 114 333 909 | Email: joanouma48@gmail.com
 * Designed custom SQL-driven dashboards to monitor real-time network bandwidth usage and track company-wide IT asset inventories extracted from Hyper-V virtualization data for over 250 users across 14 organizational departments.
 * Improved the reliability of technical reporting by digitizing daily error logs and maintenance records for enterprise IT hardware (computers, UPS systems, printers) alongside industrial SCADA telemetry into a centralized database.
 * Enhanced facility security operations by deploying CCTV surveillance systems across various organizational zones, while analyzing the configuration of entry-point RFID scanners used for automated tractor fleet tracking.
+
+## TECHNICAL PROJECTS
+
+**Team Vulcan Mars Rover | Networking Co-Lead & Documentation Lead Engineer**
+*Cars4Mars African Rover Challenge (Targeting South Africa Finals, Sep 2026)*
+* **Telemetry & Networking Architecture:** Architecting the real-time telemetry and wireless networking communications pipeline between the Mars rover prototype and the remote Ground Control Station (GCS) utilizing ROS 2 (Jazzy Jalisco) and DDS transport layers.
+* **Circuit Design & Hardware Interfacing:** Designing custom embedded circuit schematics and PCB layouts using Proteus to interface low-level sensors, RF communication modules, and power distribution systems with the central edge microcontrollers.
+* **IoT & Cloud Integration:** Developing C/C++ embedded firmware for edge microcontrollers to stream low-latency vehicle diagnostics, sensor payloads, and environmental telemetry over secure MQTT/Kafka event pipelines to a localized Golang backend.
+* **Cross-Functional Leadership:** Collaborating within a multidisciplinary engineering team to ensure seamless hardware-software boundaries and containerizing simulation environments using Docker and Minikube in an Ubuntu Linux environment.
+
+**NduthiPulse | Co-Lead IoT & Software Engineer**
+*Active Collaborative Development (Team Project)*
+* **System Architecture:** Co-engineering a hardware-to-cloud motorcycle telemetry and remote ignition control platform designed for real-time fleet management and automated financial workflows.
+* **Hardware & Firmware Layer:** Developing embedded C/C++ firmware for ESP32 microcontrollers to capture real-time vehicle diagnostics and GPS tracking, implementing secure digital relay control for remote ignition locking.
+* **Cloud & Fintech Integration:** Architecting a high-throughput Golang microservices backend paired with a PostgreSQL database; integrating mobile money APIs (M-Pesa) to execute automated, payment-driven hardware state overrides.
+* **Collaborative DevOps:** Utilizing Git/GitHub workflows and Docker containerization to coordinate asynchronous development, ensuring seamless data ingestion across MQTT and Apache Kafka event streams.
+
+**CareerPilot | Full-Stack Developer | [https://careerpilot-mwn3.onrender.com](https://careerpilot-mwn3.onrender.com)**
+*Personal Project*
+* **Description:** Architected and deployed an interactive career guidance web application designed to align recent high school graduates with optimal university pathways.
+* **Technology:** Engineered a dynamic RIASEC personality assessment using a React.js frontend, powered by a high-performance Golang backend for rapid data processing.
+
+**Campus Support | Full-Stack Developer | [https://feedback-system-wgmf.onrender.com](https://feedback-system-wgmf.onrender.com)**
+*Personal Project*
+* **Description:** Developed a secure web platform providing university students with anonymous mental health feedback and psychological support channels.
+* **Technology:** Engineered the end-to-end application utilizing the MERN stack (MongoDB, Express.js, React, Node.js), implementing strict data handling protocols to guarantee user privacy.
+
+**Agri-Node | Lead IoT Engineer | Active Development (Month 4 of 4)**
+* **Description:** A distributed, cloud-native IoT platform engineered for precision agriculture and automated pest deterrence. The system captures environmental telemetry via edge microcontrollers and integrates machine learning for intelligent, non-deterministic deterrence.
+* **Technology:** Developing C++ firmware for ESP32 edge nodes and a decoupled Golang microservices backend following Clean Architecture principles. Integrating Apache Kafka as an asynchronous event bus and PostgreSQL for data persistence, currently orchestrated via Docker for local environment testing.
+
+**Localized Smart Building Management System | Full-Stack IoT Developer Active Coursework, JKUAT**
+* **Description:** A centralized, "closed-loop" 3-zone smart building architecture that connects physical sensors and security actuators to a robust backend infrastructure. Features a real-time Human-Machine Interface (HMI) web dashboard allowing operators to actively monitor building status and execute manual hardware overrides.
+* **Technology:** Hardware edge layer built with an ESP8266 NodeMCU and an MCP23017 I2C expander to manage pin exhaustion. Backend architecture is powered by Go-based microservices, utilizing MQTT and Kafka event-streaming pipelines for data ingestion, and PostgreSQL for database management.
