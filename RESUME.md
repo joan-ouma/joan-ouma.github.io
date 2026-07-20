@@ -117,3 +117,12 @@ Nairobi, Kenya | +254 114 333 909 | Email: joanouma48@gmail.com
 *JKUAT, Kenya | October 2023 â€“ April 2026*
 * **Event Coordination & Logistics:** Successfully managed logistics, member registration, and daily scheduling for large-scale industry immersions, including a 3-day tech industrial visit to Safaricom PLC Headquarters.
 * **Administrative Leadership:** Streamlined club operations by maintaining accurate member databases, facilitating official communications and coordinating the annual committee nomination and transition process.
+
+## CERTIFICATIONS
+* **Kubernetes Fundamentals** | Andela Training Institute: Deep-dive into container orchestration, cluster management, and deploying scalable microservices skills critical for cloud-native infrastructure.
+* **Introduction to Linux (LFS101)** | The Linux Foundation & Andela: Mastery of Linux command-line operations, filesystem hierarchy, and system administration essentials for high-uptime server environments.
+* **Introduction to SQL** | Simplilearn: Certified proficiency in relational database management, complex querying, and data integrity for enterprise-level applications.
+* **Software Development Certification** | Power Learn Project (PLP) Academy: Intensive 6-month certification covering full-stack development, software engineering ethics, and agile project delivery.
+
+## REFEREES
+Available on request.
