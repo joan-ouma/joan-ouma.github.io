@@ -2,18 +2,18 @@
 
 Welcome to the repository for my personal portfolio website, available live at [jullie.tech](https://jullie.tech) (and [joan-ouma.github.io](https://joan-ouma.github.io)).
 
-## 👩‍💻 About Me
+## About Me
 
 I am a **Robotics & IoT Engineer | Full-Stack Developer** based in Nairobi, Kenya, specializing in architecting scalable edge and cloud systems. I bridge the gap between physical hardware and cloud infrastructure by building everything from embedded edge nodes and robotic simulation environments to distributed microservice backends.
 
-## 🚀 Features
+## Features
 
 - **Responsive Design**: Beautiful, modern UI optimized for both desktop and mobile viewing.
 - **Dynamic Projects Showcase**: A categorized portfolio showcasing my work across Web Development, Backend Architecture, and IoT Engineering.
 - **Dark/Light Mode**: Integrated theme toggle for a personalized viewing experience.
 - **Performance Optimized**: Built with semantic HTML, modular CSS, and vanilla JavaScript to ensure high lighthouse scores and smooth interactions.
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 - **Languages:** Python, Golang (Go), JavaScript (ES6+), C/C++ (IoT Firmware), SQL
 - **Frontend Stack:** React.js (Hooks/Context), Next.js 14, Tailwind CSS, HTML5, CSS3
@@ -25,7 +25,7 @@ I am a **Robotics & IoT Engineer | Full-Stack Developer** based in Nairobi, Keny
 - **Testing & Security:** API Testing (Postman), System Debugging, Security Best Practices (User Authentication, Data Privacy)
 - **Core Competencies:** Hardware-to-Cloud Integration, Mobile-First Design, SEO Optimization, Al Chatbot Integration, Performance Optimization (Core Web Vitals)
 
-## 💼 Professional Experience Highlights
+## Professional Experience Highlights
 
 - **Robotics Engineering Intern** @ Robotics Dojo (Nairobi, Kenya)
 - **Cloud Computing Trainee** @ KamiLimu Cohort 10
@@ -33,7 +33,7 @@ I am a **Robotics & IoT Engineer | Full-Stack Developer** based in Nairobi, Keny
 - **Open Source Software Engineer** @ Wecncode
 - **ICT Intern** @ South Nyanza Sugar Company
 
-## 🌐 Connect with Me
+## Connect with Me
 
 - **Portfolio:** [jullie.tech](https://jullie.tech)
 - **LinkedIn:** [linkedin.com/in/joan-ouma](https://www.linkedin.com/in/joan-ouma)
