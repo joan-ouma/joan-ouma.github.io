@@ -1,6 +1,7 @@
 # Ouma Joan Akello - Personal Portfolio
 
 Welcome to the repository for my personal portfolio website, available live at [jullie.tech](https://jullie.tech) (and [joan-ouma.github.io](https://joan-ouma.github.io)).
+I hope you loveee it!
 
 ## About Me
 
